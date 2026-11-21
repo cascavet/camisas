@@ -1,0 +1,30 @@
+SITE CASCAVET — Duas camisas atualizadas
+
+Como abrir: extraia o ZIP e abra index.html em um navegador.
+
+Atualizações desta versão:
+- Banner principal com a imagem das camisas preta e verde enviada anteriormente (assets/banner-camisas.png).
+- Cards da coleção atualizados com as novas imagens de frente e costas da camisa verde e preta.
+- As imagens foram dimensionadas e compactadas em WebP para carregamento mais rápido, preservando a arte visual.
+- A apresentação de imagens dos produtos foi ajustada para formato quadrado sem cortes de frente/costas.
+- Layout, cores, fontes, textos e funcionalidades existentes foram mantidos.
+
+Arquivos da pasta assets:
+- banner-camisas.png
+- camisa-verde.webp
+- camisa-preta.webp
+
+Ainda não fornecidos:
+- assets/logo.png
+- assets/favicon.svg
+
+Google Forms configurado para todos os botões de pedido (link informado pela CASCAVET).
+Os botões de pedidos utilizam o mesmo formulário para camisa verde e preta; o formulário não está pré-selecionado por cor.
+O WhatsApp foi removido do site. O link do Instagram foi configurado e permanece como único acesso às redes sociais no rodapé.
+
+Formulário de pedidos:
+https://docs.google.com/forms/d/e/1FAIpQLSdHlc8xgtKt1j9A7Llr_vZY_brbmym0kdulgWadSFaTOxz2PA/viewform?usp=publish-editor
+
+Atualização: selo do banner alterado para ÚLTIMA CHANCE; subtítulo do banner e botões individuais dos cards removidos. Botões gerais de pedido e formulário mantidos.
+
+Atualização: removidos o WhatsApp flutuante e o link do WhatsApp no rodapé. Instagram configurado: https://www.instagram.com/a.cascavet?avpt=bHNoa21mYmx5dzc4

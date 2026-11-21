@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CASCAVET | Camisas Oficiais</title>
+  <meta name="description" content="Camisas oficiais da CASCAVET — Atlética de Medicina Veterinária do IFMA. Edição limitada.">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="CASCAVET | Camisas Oficiais">
+  <meta property="og:description" content="Camisas oficiais da CASCAVET — Atlética de Medicina Veterinária do IFMA. Edição limitada.">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:image" content="assets/banner-camisas.png">
+
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Oswald:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a href="#main" class="skip-link">Ir para o conteúdo principal</a>
+
+  <!-- HEADER -->
+  <header class="header" id="topo">
+    <div class="header__inner container">
+      <a href="#topo" class="header__logo" aria-label="CASCAVET — início">
+        <img src="assets/logo.png" alt="Logo CASCAVET" width="48" height="48" onerror="this.style.display='none'">
+        <span class="header__logo-text">CASCAVET</span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Navegação principal">
+        <ul class="nav__list">
+          <li><a href="#colecao" class="nav__link">CAMISAS</a></li>
+          <li><a href="#pedido" class="nav__link">COMO PEDIR</a></li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHlc8xgtKt1j9A7Llr_vZY_brbmym0kdulgWadSFaTOxz2PA/viewform?usp=publish-editor" class="btn btn--gold btn--sm js-order-link" data-order="geral">FAZER PEDIDO</a>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu de navegação">
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+          <span class="menu-toggle__bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- HERO -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__bg" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__content fade-in">
+          <p class="hero__badge">ÚLTIMA CHANCE</p>
+          <h1 id="hero-title" class="hero__title">VISTA AS CORES DA CASCAVET.</h1>
+          <div class="hero__actions">
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHlc8xgtKt1j9A7Llr_vZY_brbmym0kdulgWadSFaTOxz2PA/viewform?usp=publish-editor" class="btn btn--gold btn--lg js-order-link" data-order="geral">FAZER MEU PEDIDO</a>
+            <a href="#colecao" class="btn btn--outline btn--lg">VER CAMISAS</a>
+          </div>
+        </div>
+        <div class="hero__visual fade-in" aria-hidden="false">
+          <div class="hero__banner-image">
+            <img src="assets/banner-camisas.png" alt="Camisas oficiais da CASCAVET, nas versões preta e verde" width="1237" height="964" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COLEÇÃO -->
+    <section class="section collection" id="colecao" aria-labelledby="collection-title">
+      <div class="container">
+        <header class="section__header fade-in">
+          <h2 id="collection-title" class="section__title">A COLEÇÃO</h2>
+          <p class="section__subtitle">Dois modelos. Uma identidade.</p>
+        </header>
+
+        <div class="collection__grid">
+          <article class="product-card fade-in">
+            <div class="product-card__image-wrap">
+              <img src="assets/camisa-verde.webp" alt="Camisa verde CASCAVET, frente e costas, com personalização de nome e número" width="1400" height="1400" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">CAMISA VERDE</h3>
+              <p class="product-card__desc">Elegância, força e identidade em uma edição especial.</p>
+            </div>
+          </article>
+
+          <article class="product-card fade-in">
+            <div class="product-card__image-wrap product-card__image-wrap--preta">
+              <img src="assets/camisa-preta.webp" alt="Camisa preta CASCAVET, frente e costas, com personalização de nome e número" width="1400" height="1400" loading="lazy">
+            </div>
+            <div class="product-card__body">
+              <h3 class="product-card__name">CAMISA PRETA</h3>
+              <p class="product-card__desc">Uma versão marcante da nossa identidade.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMO PEDIR -->
+    <section class="section how-to" id="pedido" aria-labelledby="how-to-title">
+      <div class="container">
+        <header class="section__header fade-in">
+          <h2 id="how-to-title" class="section__title">COMO PEDIR</h2>
+        </header>
+
+        <ol class="steps steps--inline fade-in">
+          <li class="steps__item">
+            <span class="steps__number">01</span>
+            <span class="steps__label">Escolha sua camisa</span>
+          </li>
+          <li class="steps__item">
+            <span class="steps__number">02</span>
+            <span class="steps__label">Preencha o formulário</span>
+          </li>
+          <li class="steps__item">
+            <span class="steps__number">03</span>
+            <span class="steps__label">Aguarde nosso contato</span>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- CTA FINAL -->
+    <section class="section cta-final" aria-labelledby="cta-title">
+      <div class="container cta-final__inner fade-in">
+        <h2 id="cta-title" class="cta-final__title">PRONTO PARA VESTIR A CASCAVET?</h2>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSdHlc8xgtKt1j9A7Llr_vZY_brbmym0kdulgWadSFaTOxz2PA/viewform?usp=publish-editor" class="btn btn--gold btn--lg js-order-link" data-order="geral">FAZER MEU PEDIDO</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <img src="assets/logo.png" alt="" width="56" height="56" onerror="this.style.display='none'" loading="lazy">
+        <div>
+          <p class="footer__name">CASCAVET</p>
+          <p class="footer__tagline">Atlética de Medicina Veterinária — IFMA</p>
+        </div>
+      </div>
+      <nav class="footer__social" aria-label="Redes sociais">
+        <a href="https://www.instagram.com/a.cascavet?avpt=bHNoa21mYmx5dzc4" class="footer__link js-instagram-link" target="_blank" rel="noopener noreferrer" aria-label="Instagram da CASCAVET">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2" y="2" width="20" height="20" rx="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          Instagram
+        </a>
+      </nav>
+    </div>
+    <div class="footer__bottom">
+      <div class="container">
+        <p>&copy; <span id="year"></span> CASCAVET — Atlética de Medicina Veterinária. Todos os direitos reservados.</p>
+      </div>
+    </div>
+  </footer>
+
+
+<script src="script.js"></script>
+</body>
+</html>
